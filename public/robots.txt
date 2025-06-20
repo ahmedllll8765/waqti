@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://waqti.netlify.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin areas (when implemented)
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow important pages
+Allow: /
+Allow: /services
+Allow: /about
+Allow: /support
+Allow: /terms
+Allow: /login
+Allow: /register
